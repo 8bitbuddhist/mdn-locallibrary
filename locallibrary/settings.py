@@ -156,8 +156,7 @@ LOGGING = {
             '()': 'pythonjsonlogger.jsonlogger.JsonFormatter'
         },
         'json_loggly': {
-            'format': '{ \"loggerName\":\"%(name)s\", \"timestamp\":\"%(asctime)s\", \"fileName\":\"%(filename)s\", \"logRecordCreationTime\":\"%(created)f\", \"functionName\":\"%(funcName)s\", \"levelNo\":\"%(levelno)s\", \"lineNo\":\"%(lineno)d\", \"time\":\"%(msecs)d\", \"levelName\":\"%(levelname)s\", \"message\":\"%(message)s\"}',
-            #'format': '{ "loggerName":"%(name)s", "timestamp":"%(asctime)s", "fileName":"%(filename)s", "logRecordCreationTime":"%(created)f", "functionName":"%(funcName)s", "levelNo":"%(levelno)s", "lineNo":"%(lineno)d", "time":"%(msecs)d", "levelName":"%(levelname)s", "message":"%(message)s"}',
+            'format': '{ "loggerName":"%(name)s", "timestamp":"%(asctime)s", "fileName":"%(filename)s", "logRecordCreationTime":"%(created)f", "functionName":"%(funcName)s", "levelNo":"%(levelno)s", "lineNo":"%(lineno)d", "time":"%(msecs)d", "levelName":"%(levelname)s", "message":"%(message)s"}',
             'datefmt': ''
         },
     },
